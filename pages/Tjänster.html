@@ -10,6 +10,10 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -40,90 +44,88 @@
               <a class="nav-link" href="./OmOss.html">Om oss</a>
             </li>
           </ul>
+          <i
+            class="fa fa-shopping-cart position-absolute end-0 me-5"
+            style="font-size: 24px"
+          ></i>
         </div>
       </nav>
     </header>
 
     <main>
-      <div class="container text-center mt-5">
-        <ul class="row row-cols-1 row-cols-md-3">
-          <li class="list-group-item">
-            <div class="col d-flex justify-content-center">
-              <div class="card mt-5" style="width: 18rem">
-                <img
-                  height="200px"
-                  src="../Image/FrölinsStäd-Logo.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Veckorstäd</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+      <div class="container text-center">
+        <ul id="servicelist" class="row row-cols-1 row-cols-md-3 p-0">
+          <li class="col d-flex justify-content-center list-group-item mt-5">
+            <div class="card mt-5 border-0 card-style">
+              <img
+                src="../Image/FrölinsStäd-Logo.png"
+                class="card-img-top service-img"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Veckorstäd</h5>
+                <p class="card-text cart-text">hej</p>
+                <p class="card-price">2000Kr</p>
+                <button href="#" class="btn btn-primary add-to-cart-btn">
+                  Lägg i varukorg
+                </button>
               </div>
             </div>
           </li>
-          <li class="list-group-item">
-            <div class="col d-flex justify-content-center">
-              <div class="card mt-5" style="width: 18rem">
-                <img
-                  height="200px"
-                  src="../Image/FrölinsStäd-Logo.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Flyttstäd</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+          <li class="col d-flex justify-content-center list-group-item mt-5">
+            <div class="card mt-5 border-0 card-style">
+              <img
+                src="../Image/FrölinsStäd-Logo.png"
+                class="card-img-top service-img"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Veckorstäd</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <p class="card-price">2000Kr</p>
+                <a href="#" class="btn btn-primary">Lägg i varukorg</a>
               </div>
             </div>
           </li>
-          <li class="list-group-item">
-            <div class="col d-flex justify-content-center">
-              <div class="card mt-5" style="width: 18rem">
-                <img
-                  height="200px"
-                  src="../Image/FrölinsStäd-Logo.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Storstäd</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+          <li class="col d-flex justify-content-center list-group-item mt-5">
+            <div class="card mt-5 border-0 card-style">
+              <img
+                src="../Image/FrölinsStäd-Logo.png"
+                class="card-img-top service-img"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Veckorstäd</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <p class="card-price">2000Kr</p>
+                <a href="#" class="btn btn-primary">Lägg i varukorg</a>
               </div>
             </div>
           </li>
-          <li class="list-group-item">
-            <div class="col d-flex justify-content-center">
-              <div class="card mt-5" style="width: 18rem">
-                <img
-                  height="200px"
-                  src="../Image/FrölinsStäd-Logo.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Fönsterputs</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+          <li class="col d-flex justify-content-center list-group-item mt-5">
+            <div
+              class="card mt-5 card mt-5 border-0 card-style"
+              style="width: 18rem"
+            >
+              <img
+                src="../Image/FrölinsStäd-Logo.png"
+                class="card-img-top service-img"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Veckorstäd</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <p class="card-price">2000Kr</p>
+                <a href="#" class="btn btn-primary">Lägg i varukorg</a>
               </div>
             </div>
           </li>
@@ -131,11 +133,9 @@
       </div>
     </main>
 
-    <footer class="mt-5 p-4 bg-light text-black text-center">
+    <footer class="mt-5 p-4 text-black text-center footer-color">
       <div class="row justify-content-center">
-        <a href="./OmOss.html">
-          <button class="btn contact-btn">Kontakta oss</button>
-        </a>
+        <button class="btn contact-btn">Kontakta oss</button>
       </div>
       <div class="col">
         <a href="https://www.facebook.com"
