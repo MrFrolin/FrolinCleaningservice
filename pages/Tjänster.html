@@ -18,6 +18,10 @@
       defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script defer src="../javascript/site.js"></script>
     <title>Frölins städ/Tjänster</title>
   </head>
@@ -44,10 +48,50 @@
               <a class="nav-link" href="./OmOss.html">Om oss</a>
             </li>
           </ul>
-          <i
-            class="fa fa-shopping-cart position-absolute end-0 me-5"
-            style="font-size: 24px"
-          ></i>
+
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn fa fa-shopping-cart position-absolute end-0 me-5 cart-icon"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          ></button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div
+              class="modal-dialog modal-dialog-scrollable"
+              style="margin-left: auto; margin-right: 10px"
+            >
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Varukorg
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <ul id="modalcart" class="modal-body"></ul>
+                <div
+                  class="modal-footer text-center justify-content-center border-0"
+                >
+                  <button type="button" class="btn btn-primary">
+                    Få offert
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
