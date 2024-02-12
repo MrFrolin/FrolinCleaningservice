@@ -95,7 +95,7 @@ function applyStylesServices(
 
     cardFooter.classList.add("mt-auto");
     cardPrice.classList.add("card-price");
-    addToCartBtn.classList.add("btn", "btn-primary");
+    addToCartBtn.classList.add("btn", "addtocartbtn");
 }
 
 
@@ -155,5 +155,8 @@ function applyStylesCart(
     price.classList.add("m-0");
     removeBtn.classList.add("btn","fa", "fa-trash-o", "p-0");
 }
+
+
+
 
 

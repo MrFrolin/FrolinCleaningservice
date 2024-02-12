@@ -1,18 +1,14 @@
-h3,
-p {
-    flex-direction: row;
-    text-align: center;
-}
-
 .welcome-text-box{
     justify-content: center;
     padding: 40px;
     flex-direction: column;
-    background-color: rgba(170, 170, 170, 0.3);
+    background-color: rgb(217, 225, 228);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .welcomeImg {
     height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .welcome-text{
