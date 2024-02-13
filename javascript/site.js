@@ -8,7 +8,7 @@ class Service{
 }
 
 const services =  [
-    new Service("living-room.webp","Veckostäd", 
+    new Service("../image/living-room.webp","Veckostäd", 
     "Med regelbunden städning ser vi till att ditt hem håller sig rent & fräscht över tid. De flesta som anlitar oss vill ha hjälp med kontinuerlig städning.",
     549),
     new Service("kitchen.webp","Storstäd", 
@@ -51,7 +51,7 @@ async function displayServices(){
         cardText.innerText = service.description;
         cardPrice.innerText = "fr. " + service.price + " kr";
 
-        image.src = "./image/" + service.image;
+        image.src = service.image;
         image.alt = "Bilden kunde inte laddas..."
 
         addToCartBtn.innerText = "Lägg i varukorg";
