@@ -13,7 +13,7 @@ const services =  [
     549),
     new Service("../image/kitchen.webp","Storstäd", 
     "Vår storstädning innehåller allt som ingår i veckostädningen, men vi fokuserar ytterligare på de detaljer som är lite svårare att komma åt och behöver mer tid. ",
-    740),
+    745),
     new Service("windowClean.webp","Fönsterputs", 
     "Rena fönster förändrar ett helt hem. Anlita våra utbildade fönsterputsare och njut av känslan av fritt ljusinsläpp och ostörd utsikt.",
     200),
