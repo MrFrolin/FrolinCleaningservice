@@ -17,7 +17,7 @@ const services =  [
     new Service("windowClean.webp","Fönsterputs", 
     "Rena fönster förändrar ett helt hem. Anlita våra utbildade fönsterputsare och njut av känslan av fritt ljusinsläpp och ostörd utsikt.",
     199),
-    new Service("bathroom.webp","Flyttstäd", 
+    new Service("https://raw.githubusercontent.com/MrFrolin/MrFrolin.github.io/main/Image/bathroom.webp","Flyttstäd", 
     "När flytten går från en bostad är städningen en viktig del av överlåtelsen från säljare till köpare. ingenting man alltid har tid och klarar av att ordna med på egen hand.",
     1459),
     new Service("backyard.webp","Trädgård", 
