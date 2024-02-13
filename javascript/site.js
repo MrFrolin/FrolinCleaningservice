@@ -51,7 +51,7 @@ async function displayServices(){
         cardText.innerText = service.description;
         cardPrice.innerText = "fr. " + service.price + " kr";
 
-        image.src = "../image/living-room.webp";
+        image.src = service.image;
         image.alt = "Bilden kunde inte laddas..."
 
         addToCartBtn.innerText = "Lägg i varukorg";
