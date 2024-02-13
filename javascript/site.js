@@ -8,10 +8,10 @@ class Service{
 }
 
 const services =  [
-    new Service("../image/living-room.webp","Veckostäd", 
+    new Service("living-room.webp","Veckostäd", 
     "Med regelbunden städning ser vi till att ditt hem håller sig rent & fräscht över tid. De flesta som anlitar oss vill ha hjälp med kontinuerlig städning.",
     549),
-    new Service("./image/kitchen.webp","Storstäd", 
+    new Service("kitchen.webp","Storstäd", 
     "Vår storstädning innehåller allt som ingår i veckostädningen, men vi fokuserar ytterligare på de detaljer som är lite svårare att komma åt och behöver mer tid. ",
     740),
     new Service("windowClean.webp","Fönsterputs", 
@@ -49,7 +49,7 @@ async function displayServices(){
         cardText.innerText = service.description;
         cardPrice.innerText = "fr. " + service.price + " kr";
 
-        image.src = service.image;
+        image.src = "../image/" + service.image;
         image.alt = "Bilden kunde inte laddas..."
 
         addToCartBtn.innerText = "Lägg i varukorg";
