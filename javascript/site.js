@@ -111,7 +111,7 @@ function addToCart(service){
 
     applyStylesCart(li, row, imgBox, img, cardBody, h5, price, removeBtn);
 
-    img.src = "../image/" + service.image;
+    img.src = service.image;
     img.alt = "Picture could not load";
 
     removeBtn.onclick = (event) => {
