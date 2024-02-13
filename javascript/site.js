@@ -20,7 +20,7 @@ const services =  [
     new Service("bathroom.webp","Flyttstäd", 
     "När flytten går från en bostad är städningen en viktig del av överlåtelsen från säljare till köpare. ingenting man alltid har tid och klarar av att ordna med på egen hand.",
     1459),
-    new Service("backyard.webp","Trädgård", 
+    new Service("backyard.jpg","Trädgård", 
     "Våra trädgårdstjänster kan hjälper dig ta hand om din trädgård, även när du är på semester eller om du behöver avlastning med den årliga höst- och vårstädningen. .",
     599),
     new Service("husVisning.webp","Visningsstäd", 
