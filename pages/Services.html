@@ -28,7 +28,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script defer src="../javascript/site.js"></script>
+    <script defer src="../javascript/Service.js"></script>
     <title>Frölins städ/Tjänster</title>
   </head>
   <body>
@@ -70,7 +70,7 @@
             class="modal fade"
             id="cartModal"
             tabindex="-1"
-            aria-labelledby="exampleModalLabel"
+            aria-labelledby="shoppingCart"
             aria-hidden="true"
           >
             <div
@@ -79,9 +79,7 @@
             >
               <div class="modal-content">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">
-                    Varukorg
-                  </h1>
+                  <h1 class="modal-title fs-5" id="shoppingCart">Varukorg</h1>
                   <button
                     type="button"
                     class="btn-close"
@@ -105,6 +103,31 @@
     </header>
 
     <main>
+      <div
+        class="modal fade"
+        id="infoModal"
+        tabindex="-1"
+        aria-labelledby="shoppingCart"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="serviceTitel"></h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <p id="serviceDescription" class="p-5"></p>
+            <div
+              class="modal-footer text-center justify-content-center border-0"
+            ></div>
+          </div>
+        </div>
+      </div>
       <div class="container text-center">
         <ul id="servicelist" class="row row-cols-1 row-cols-md-3 p-0"></ul>
       </div>

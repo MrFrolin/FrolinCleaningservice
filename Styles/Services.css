@@ -15,3 +15,16 @@
 .addtocartbtn.btn:hover{
     background-color: #b5ccd4;
 }
+
+.informationBtn{
+    position: absolute;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+}
