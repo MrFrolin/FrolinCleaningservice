@@ -22,7 +22,7 @@ const services =  [
     1459),
     new Service("backyard.webp","Trädgård", 
     "Våra trädgårdstjänster kan hjälper dig ta hand om din trädgård, även när du är på semester eller om du behöver avlastning med den årliga höst- och vårstädningen. .",
-    600),
+    599),
     new Service("husVisning.webp","Visningsstäd", 
     "Vi arbetar hårt för att möta de höga krav som mäklare, stylist, fotograf och potentiella köpare ställer inför och under en lägenhetsförsäljning.",
     999),
@@ -51,7 +51,7 @@ async function displayServices(){
         cardText.innerText = service.description;
         cardPrice.innerText = "fr. " + service.price + " kr";
 
-        image.src = service.image;
+        image.src = "../image/living-room.webp";
         image.alt = "Bilden kunde inte laddas..."
 
         addToCartBtn.innerText = "Lägg i varukorg";
