@@ -31,8 +31,6 @@ const services =  [
     3449)
 ];
 
-displayServices();
-
 async function displayServices(){
     for (const service of services) {
         const li = document.createElement("li");
@@ -74,6 +72,8 @@ async function displayServices(){
         servicelist.appendChild(li);
     }
 }
+
+displayServices();
 
 function applyStylesServices(
     li,
