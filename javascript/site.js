@@ -8,7 +8,7 @@ class Service{
 }
 
 const services =  [
-    new Service("https://raw.githubusercontent.com/MrFrolin/MrFrolin.github.io/main/Image//image/living-room.webp","Veckostäd", 
+    new Service("https://raw.githubusercontent.com/MrFrolin/MrFrolin.github.io/main/Image/living-room.webp","Veckostäd", 
     "Med regelbunden städning ser vi till att ditt hem håller sig rent & fräscht över tid. De flesta som anlitar oss vill ha hjälp med kontinuerlig städning.",
     549),
     new Service("https://raw.githubusercontent.com/MrFrolin/MrFrolin.github.io/main/Image/kitchen.webp","Storstäd", 
