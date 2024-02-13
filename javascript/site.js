@@ -47,7 +47,7 @@ async function displayServices(){
 
         cardTitle.innerText = service.title;
         cardText.innerText = service.description;
-        cardPrice.innerText = "fr. " + service.price + " kr";
+        cardPrice.innerText = service.price + " kr/h";
 
         image.src = "../image/" + service.image;
         image.alt = "Bilden kunde inte laddas..."
