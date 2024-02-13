@@ -22,7 +22,7 @@ const services =  [
     1459),
     new Service("backyard.jpg","Trädgård", 
     "Våra trädgårdstjänster kan hjälper dig ta hand om din trädgård, även när du är på semester eller om du behöver avlastning med den årliga höst- och vårstädningen. .",
-    599),
+    600),
     new Service("husVisning.webp","Visningsstäd", 
     "Vi arbetar hårt för att möta de höga krav som mäklare, stylist, fotograf och potentiella köpare ställer inför och under en lägenhetsförsäljning.",
     999),
