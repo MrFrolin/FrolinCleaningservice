@@ -8,25 +8,25 @@ class Service{
 }
 
 const services =  [
-    new Service("./image/living-room.webp","Veckostäd", 
+    new Service("https://raw.githubusercontent.com/MrFrolin/MrFrolin.github.io/main/Image//image/living-room.webp","Veckostäd", 
     "Med regelbunden städning ser vi till att ditt hem håller sig rent & fräscht över tid. De flesta som anlitar oss vill ha hjälp med kontinuerlig städning.",
     549),
-    new Service("../image/kitchen.webp","Storstäd", 
+    new Service("https://raw.githubusercontent.com/MrFrolin/MrFrolin.github.io/main/Image/kitchen.webp","Storstäd", 
     "Vår storstädning innehåller allt som ingår i veckostädningen, men vi fokuserar ytterligare på de detaljer som är lite svårare att komma åt och behöver mer tid. ",
     745),
-    new Service("windowClean.webp","Fönsterputs", 
+    new Service("https://raw.githubusercontent.com/MrFrolin/MrFrolin.github.io/main/Image/windowClean.webp","Fönsterputs", 
     "Rena fönster förändrar ett helt hem. Anlita våra utbildade fönsterputsare och njut av känslan av fritt ljusinsläpp och ostörd utsikt.",
     200),
     new Service("https://raw.githubusercontent.com/MrFrolin/MrFrolin.github.io/main/Image/bathroom.webp","Flyttstäd", 
     "När flytten går från en bostad är städningen en viktig del av överlåtelsen från säljare till köpare. ingenting man alltid har tid och klarar av att ordna med på egen hand.",
     1459),
-    new Service("backyard.webp","Trädgård", 
+    new Service("https://raw.githubusercontent.com/MrFrolin/MrFrolin.github.io/main/Image/backyard.webp","Trädgård", 
     "Våra trädgårdstjänster kan hjälper dig ta hand om din trädgård, även när du är på semester eller om du behöver avlastning med den årliga höst- och vårstädningen. .",
     600),
-    new Service("husVisning.webp","Visningsstäd", 
+    new Service("https://raw.githubusercontent.com/MrFrolin/MrFrolin.github.io/main/Image/husVisning.webp","Visningsstäd", 
     "Vi arbetar hårt för att möta de höga krav som mäklare, stylist, fotograf och potentiella köpare ställer inför och under en lägenhetsförsäljning.",
     999),
-    new Service("kontor.webp","Kontorsstäd", 
+    new Service("https://raw.githubusercontent.com/MrFrolin/MrFrolin.github.io/main/Image/kontor.webp","Kontorsstäd", 
     "Genom noggrann kontorsstädning genererar vi effektiva och attraktiva arbetsplatser oavsett kontorets storlek.",
     3449)
 ];
