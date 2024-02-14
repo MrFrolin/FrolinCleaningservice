@@ -8,28 +8,28 @@ class Service{
 }
 
 const services =  [
-    new Service("living-room.webp","Veckostäd", 
+    new Service("../Image/living-room.webp","Veckostäd", 
     "Med regelbunden städning ser vi till att ditt hem håller sig rent & fräscht över tid. De flesta som anlitar oss vill ha hjälp med kontinuerlig städning.",
     549),
-    new Service("living-room.webp" ,"Veckostäd", 
+    new Service("../Image/living-room.webp" ,"Veckostäd", 
     "Med regelbunden städning ser vi till att ditt hem håller sig rent & fräscht över tid. De flesta som anlitar oss vill ha hjälp med kontinuerlig städning.",
     55000),
-    new Service("kitchen.webp","Storstäd", 
+    new Service("../Image/kitchen.webp","Storstäd", 
     "Vår storstädning innehåller allt som ingår i veckostädningen, men vi fokuserar ytterligare på de detaljer som är lite svårare att komma åt och behöver mer tid. Vi brukar rekommenderar att den görs ungefär en gång per halvår.",
     749),
-    new Service("windowClean.webp","Fönsterputs", 
+    new Service("../Image/windowClean.webp","Fönsterputs", 
     "Rena fönster förändrar ett helt hem. Anlita våra utbildade fönsterputsare och njut av känslan av fritt ljusinsläpp och ostörd utsikt.",
     199),
-    new Service("bathroom.webp","Flyttstäd", 
+    new Service("../Image/bathroom.webp","Flyttstäd", 
     "När flytten går från en bostad är städningen en viktig del av överlåtelsen från säljare till köpare. Det ställs höga krav på en flyttstädning och det är ingenting man alltid har tid och klarar av att ordna med på egen hand.",
     1459),
-    new Service("backyard.webp","Trädgård", 
+    new Service("../Image/backyard.webp","Trädgård", 
     "Våra trädgårdstjänster kan hjälper dig ta hand om din trädgård, även när du är på semester eller om du behöver avlastning med den årliga höst- och vårstädningen.",
     599),
-    new Service("husVisning.webp","Visningsstäd", 
+    new Service("../Image/husVisning.webp","Visningsstäd", 
     "Vi arbetar hårt för att möta de höga krav som mäklare, stylist, fotograf och potentiella köpare ställer inför och under en lägenhetsförsäljning.",
     999),
-    new Service("kontor.webp","Kontorsstäd", 
+    new Service("../Image/kontor.webp","Kontorsstäd", 
     "Genom noggrann kontorsstädning genererar vi effektiva och attraktiva arbetsplatser oavsett kontorets storlek.",
     3449)
 ];
@@ -53,7 +53,7 @@ async function displayServices(){
 
         console.log(service.image);
 
-        image.src = "../Image/" + service.image;
+        image.src = service.image;
         image.alt = "Bilden kunde inte laddas..."
 
         addToCartBtn.innerText = "Lägg i varukorg";
