@@ -8,10 +8,10 @@ class Service{
 }
 
 const services =  [
-    new Service("https://raw.githubusercontent.com/MrFrolin/MrFrolin.github.io/main/Image/living-room.webp","Veckostäd", 
+    new Service("living-room.webp","Veckostäd", 
     "Med regelbunden städning ser vi till att ditt hem håller sig rent & fräscht över tid. De flesta som anlitar oss vill ha hjälp med kontinuerlig städning.",
     549),
-    new Service("../Image/living-room.webp" ,"Veckostäd", 
+    new Service("living-room.webp" ,"Veckostäd", 
     "Med regelbunden städning ser vi till att ditt hem håller sig rent & fräscht över tid. De flesta som anlitar oss vill ha hjälp med kontinuerlig städning.",
     2337),
     new Service("https://raw.githubusercontent.com/MrFrolin/MrFrolin.github.io/main/Image/kitchen.webp","Storstäd", 
@@ -48,7 +48,7 @@ async function displayServices(){
 
         applyStylesServices(li, card, image, cardBody, cardTitle, cardFooter, cardPrice, addToCartBtn, inforamtionBtn)
 
-        cardTitle.innerText = service.title;
+        cardTitle.innerText = "../Image/" + service.title;
         cardPrice.innerText = service.price + " kr/h";
 
         console.log(service.image);
