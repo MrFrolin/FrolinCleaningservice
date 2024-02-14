@@ -11,9 +11,6 @@ const services =  [
     new Service("../Image/living-room.webp","Veckostäd", 
     "Med regelbunden städning ser vi till att ditt hem håller sig rent & fräscht över tid. De flesta som anlitar oss vill ha hjälp med kontinuerlig städning.",
     549),
-    new Service("../Image/living-room.webp" ,"Veckostäd", 
-    "Med regelbunden städning ser vi till att ditt hem håller sig rent & fräscht över tid. De flesta som anlitar oss vill ha hjälp med kontinuerlig städning.",
-    55000),
     new Service("../Image/kitchen.webp","Storstäd", 
     "Vår storstädning innehåller allt som ingår i veckostädningen, men vi fokuserar ytterligare på de detaljer som är lite svårare att komma åt och behöver mer tid. Vi brukar rekommenderar att den görs ungefär en gång per halvår.",
     749),
@@ -50,8 +47,6 @@ async function displayServices(){
 
         cardTitle.innerText = service.title;
         cardPrice.innerText = service.price + " kr/h";
-
-        console.log(service.image);
 
         image.src = service.image;
         image.alt = "Bilden kunde inte laddas..."
