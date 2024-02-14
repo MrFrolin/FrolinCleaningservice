@@ -7,8 +7,6 @@ async function getWeather(){
     const weatherTitle = document.querySelector("#weatherTitle");
     const weatherText = document.querySelector("#weatherText");
 
-    console.log(results);
-
     let currentTime = results.current.time;
     let newTime = currentTime.replace("T", " ");
 
