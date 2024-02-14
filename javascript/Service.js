@@ -48,8 +48,8 @@ async function displayServices(){
 
         applyStylesServices(li, card, image, cardBody, cardTitle, cardFooter, cardPrice, addToCartBtn, inforamtionBtn)
 
-        cardTitle.innerText =  + service.title;
-        cardPrice.innerText =  service.price + " kr/h";
+        cardTitle.innerText = service.title;
+        cardPrice.innerText = service.price + " kr/h";
 
         console.log(service.image);
 
