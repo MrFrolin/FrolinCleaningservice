@@ -42,7 +42,7 @@ h6{
 
 .contact-btn.btn {
   background-color: rgb(54, 142, 180);
-  color: whitesmoke;
+  color: white;
   margin-bottom: 20px;
   width: 150px;
 }
@@ -50,7 +50,7 @@ h6{
 .contact-btn.btn:hover
 {
   background-color: rgb(54, 142, 180);
-  color: whitesmoke;
+  color: white;
 }
 
 .logoimg {
